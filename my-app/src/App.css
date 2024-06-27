@@ -1,0 +1,51 @@
+
+
+body{
+    background-color: #282c34;
+}
+
+#hello, #Main_name, #major {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Andale Mono", monospace;
+    color: #fdfdfd;
+}
+
+#hello {
+    font-size: 15px;
+}
+
+#major {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #8e8787;
+}
+
+
+#Main_name {
+    margin-top: 20px;
+}
+
+#profile_pic {
+    margin-top: 70px;
+    border-radius: 8px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+}
+
+#profile_pic:hover {
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+}
+
+
+
+
+
+
